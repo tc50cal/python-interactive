@@ -35,8 +35,7 @@ from distutils.core import setup
 setup(
     name = 'pyinteract',
     version = '0.0.1',
-    description = 'python embedded interactive'
-
+    description = 'python embedded interactive',
     long_description = """
         *pyinteract* is a wrapper around code and cmd to provide porcelain facades for
         embedding real-time python interpreters into your python code. 
