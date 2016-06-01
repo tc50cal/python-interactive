@@ -33,19 +33,18 @@
 from distutils.core import setup
 
 setup(
-    name = 'pyinteract',
+    name = 'python-interactive',
     version = '0.0.1',
-    description = 'python embedded interactive',
+    description = 'python embedded interactive porcelain',
     long_description = """
-        *pyinteract* is a wrapper around code and cmd to provide porcelain facades for
+        *python-interactive* is a wrapper around code and cmd to provide porcelain facades for
         embedding real-time python interpreters into your python code. 
     """,
     author = 'Chad Oakely Hughes',
     author_email = 'tc50cal@gmail.com',
     license = '3-clause BSD License',
-    url = 'http:///',
     classifiers = [
-        "Development Status :: 4 - beta",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "License :: DFSG approved",
         "License :: OSI Approved :: BSD License",
@@ -56,7 +55,7 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Topic :: Software Development :: Object Brokering",
     ],
-    packages = ['pyinteract']
+    packages = ['interactive']
 )
 
 
