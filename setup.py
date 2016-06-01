@@ -34,7 +34,7 @@ from distutils.core import setup
 
 setup(
     name = 'python-interactive',
-    version = '0.0.1',
+    version = '0.0.2',
     description = 'python embedded interactive porcelain',
     long_description = """
         *python-interactive* is a wrapper around code and cmd to provide porcelain facades for
@@ -55,7 +55,7 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Topic :: Software Development :: Object Brokering",
     ],
-    packages = ['interactive']
+    files = ['interactive']
 )
 
 
